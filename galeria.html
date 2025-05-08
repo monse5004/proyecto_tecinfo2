@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="galeria.css">
+</head>
+<body>
+
+    <header>
+        <h1>Galería de Imágenes</h1>
+    </header>
+
+    <!-- Galería de imágenes -->
+    <section class="galeria">
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 1.jpg" onclick="mostrarImagen('imagen1.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 1.jpg" alt="Imagen 1">
+        </div>
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 2.jpg" onclick="mostrarImagen('imagen2.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 2.jpg" alt="Imagen 2">
+        </div>
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 3.jpg" onclick="mostrarImagen('imagen3.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 3.jpg" alt="Imagen 3">
+        </div>
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 4.jpg" onclick="mostrarImagen('imagen4.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 4.jpg" alt="Imagen 4">
+        </div>
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 5.jpg" onclick="mostrarImagen('imagen5.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 5.jpg" alt="Imagen 5">
+        </div>
+        <div class="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 6.jpg" onclick="mostrarImagen('imagen6.jpg')">
+            <img src="C:\Users\usuariocc10\Desktop\Proyecto_Js\imagen 6.jpg" alt="Imagen 6">
+        </div>
+    </section>
+
+    <!-- Ventana emergente para mostrar imagen -->
+    <div id="modal" class="modal">
+        <span class="cerrar" onclick="cerrarModal()">&times;</span>
+        <img class="modal-content" id="imgModal">
+    </div>
+
+    <script src="galeria.js"></script>
+</body>
+</html>

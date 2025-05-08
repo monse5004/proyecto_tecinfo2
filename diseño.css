@@ -1,0 +1,92 @@
+/* Fondo azul marino */
+body {
+    background-color: #003366;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del título principal */
+header h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #004080;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sección de bienvenida e integrantes */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.2em;
+}
+
+/* Estilo de la imagen de portada */
+.imagen-portada {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para la marquesina */
+.marquesina {
+    font-size: 1.5em;
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+}
+
+/* Estilo para el botón */
+#boton-interactivo {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+}
+
+#boton-interactivo:hover {
+    background-color: #004080;
+}
