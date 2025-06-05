@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EcoScan - Tu Huella de Carbono</title>
+  <link rel="stylesheet" href="contenido.css">
+</head>
+<body>
+  <header>
+    <h1>🌱 EcoScan</h1>
+    <p>Escanea productos o lugares y descubre su huella de carbono.</p>
+  </header>
+
+  <main>
+    <section class="scanner">
+      <label for="scan-input">🔍 Escanea un producto o lugar:</label>
+      <input type="text" id="scan-input" placeholder="Ej: Botella de plástico, París, etc.">
+      <button onclick="scanItem()">Escanear</button>
+    </section>
+
+    <section id="result" class="result hidden">
+      <h2>Resultado del Escaneo</h2>
+      <div id="carbon-footprint" class="footprint-box">
+        <p>Cargando datos...</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 EcoScan | Conciencia Verde para un Futuro Sostenible</p>
+  </footer>
+
+  <script src="contenido.js"></script>
+</body>
+</html>
